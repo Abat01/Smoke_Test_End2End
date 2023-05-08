@@ -8,7 +8,7 @@ import static base_urls.MedunnaBaseUrl.medunnaSetUp;
 
 public class Hooks {
 
-    @Before("@TC01_Api")
+    @Before() //Testlerden on ishlet
     public void beforeApi(){
         medunnaSetUp();
     }

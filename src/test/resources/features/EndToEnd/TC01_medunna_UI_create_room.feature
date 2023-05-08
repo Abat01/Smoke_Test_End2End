@@ -1,4 +1,4 @@
-@CreateRoom
+@CreateRoom, @e2e
 Feature: Medunna Room Creation
 
   Background: Sign In Medunna
